@@ -118,6 +118,9 @@ export default function SignUp() {
               <Option value="Customer">School & College</Option>
           </Select>
         </div>
+        <div className="my-4 flex flex-col gap-6">
+          <Input  size="lg" label="Email" type="email" onChange={(e) => {setName(e.target.value)}}/>
+        </div>
         <Button type="submit" className="mt-6 bg-cyan-700 hover:bg-cyan-800 transition duration-300" fullWidth>
           Register
         </Button>
